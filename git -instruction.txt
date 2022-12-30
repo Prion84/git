@@ -1,0 +1,17 @@
+1. переход папку в которой хотим перемистить 
+jupyter-a-rodionov@lab:~$ cd airflow
+2. Создаем ветку
+jupyter-a-rodionov@lab:~/airflow$ git branch dags/a-rodionov
+3. Переходим в новую ветку
+jupyter-a-rodionov@lab:~/airflow$ git checkout dags/a-rodionov
+A       dags/a-rodionov/lesson_02.py
+Switched to branch 'dags/a-rodionov'
+4.  Добавляем новую папку
+jupyter-a-rodionov@lab:~/airflow$ git add dags/a-rodionov
+5. Отправляем в гит
+jupyter-a-rodionov@lab:~/airflow$ git push origin dags/a-rodionov
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: To create a merge request for dags/a-rodionov, visit:
+remote:   https://git.lab.karpov.courses/lab/airflow/-/merge_requests/new?merge_request%5Bsource_branch%5D=dags%2Fa-rodionov
+remote:
