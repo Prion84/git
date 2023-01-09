@@ -1,15 +1,15 @@
 1. переход папку в которой хотим перемистить 
 jupyter-a-rodionov@lab:~$ cd airflow
 2. Создаем ветку
-jupyter-a-rodionov@lab:~/airflow$ git branch dags/a-rodionov
+jupyter-a-rodionov@lab:~/airflow$ git branch dags/a-rodionov-test
 3. Переходим в новую ветку
-jupyter-a-rodionov@lab:~/airflow$ git checkout dags/a-rodionov
+jupyter-a-rodionov@lab:~/airflow$ git checkout dags/a-rodionov-test
 A       dags/a-rodionov/lesson_02.py
 Switched to branch 'dags/a-rodionov'
 4.  Добавляем новую папку
 jupyter-a-rodionov@lab:~/airflow$ git add dags/a-rodionov
 5. Отправляем в гит
-jupyter-a-rodionov@lab:~/airflow$ git push origin dags/a-rodionov
+jupyter-a-rodionov@lab:~/airflow$ git push origin dags/a-rodionov-test
 ===
 nothing added to commit but untracked files present (use "git add" to track)
 jupyter-a-rodionov@lab:~/airflow$ git add dags/a-rodionov/lesson_02.py
